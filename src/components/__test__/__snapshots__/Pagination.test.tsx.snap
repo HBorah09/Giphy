@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> renders without crashing 1`] = `
+<Pagination
+  className="pagination"
+>
+  <Prev
+    disabled={false}
+    onClick={[Function]}
+  />
+  <div
+    key="page-1"
+  >
+    <PageItem
+      active={false}
+      activeLabel="(current)"
+      disabled={false}
+      onClick={[Function]}
+    >
+      1
+    </PageItem>
+  </div>
+  <div
+    key="page-2"
+  >
+    <PageItem
+      active={false}
+      activeLabel="(current)"
+      disabled={false}
+      onClick={[Function]}
+    >
+      2
+    </PageItem>
+  </div>
+  <div
+    key="page-3"
+  >
+    <PageItem
+      active={true}
+      activeLabel="(current)"
+      disabled={false}
+      onClick={[Function]}
+    >
+      3
+    </PageItem>
+  </div>
+  <div
+    key="page-4"
+  >
+    <PageItem
+      active={false}
+      activeLabel="(current)"
+      disabled={false}
+      onClick={[Function]}
+    >
+      4
+    </PageItem>
+  </div>
+  <div
+    key="page-5"
+  >
+    <PageItem
+      active={false}
+      activeLabel="(current)"
+      disabled={false}
+      onClick={[Function]}
+    >
+      5
+    </PageItem>
+  </div>
+  <Next
+    onClick={[Function]}
+  />
+</Pagination>
+`;

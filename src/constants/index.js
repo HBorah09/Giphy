@@ -1,0 +1,1 @@
+export const GIPHYS_PER_PAGE = 40;

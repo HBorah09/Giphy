@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> renders without crashing 1`] = `
+<Container
+  fluid={false}
+>
+  <Form>
+    <Row>
+      <Col
+        xs={8}
+      >
+        <FormGroup>
+          <FormControl
+            onChange={[Function]}
+            placeholder="Search a gif"
+          />
+        </FormGroup>
+      </Col>
+      <Col
+        xs={4}
+      >
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          type="submit"
+          variant="primary"
+        >
+          Submit
+        </Button>
+      </Col>
+    </Row>
+  </Form>
+</Container>
+`;

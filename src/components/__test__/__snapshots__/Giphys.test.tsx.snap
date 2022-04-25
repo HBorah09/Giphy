@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Giphys /> renders without crashing 1`] = `
+<Fragment>
+  <Container
+    fluid={false}
+  >
+    <Row>
+      <Col
+        className="gif-container"
+        key="gif-123"
+        lg={2}
+        md={4}
+        sm={4}
+        xs={12}
+      >
+        <img
+          alt="funny gif"
+          className="gif"
+          onClick={[Function]}
+          src=""
+          tabIndex={0}
+        />
+      </Col>
+      <Col
+        className="gif-container"
+        key="gif-456"
+        lg={2}
+        md={4}
+        sm={4}
+        xs={12}
+      >
+        <img
+          alt="funny gif"
+          className="gif"
+          onClick={[Function]}
+          src=""
+          tabIndex={0}
+        />
+      </Col>
+    </Row>
+  </Container>
+</Fragment>
+`;
